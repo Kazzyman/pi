@@ -2846,17 +2846,17 @@ func check(e error) { // create a func named check which takes one parameter "e"
 	}
 }
 
-// gloabl vars for use in multiple localized sections of code =========================================================
+// vars & consts for use in multiple localized sections of code =========================================================
 // convenience globals:
 var usingBigFloats = false // a variable of type bool which is passed by many funcs to printResultStatsLong()
 
-var colorReset = "\033[0m"
-var colorRed = "\033[31m"
-var colorGreen = "\033[32m"
-var colorYellow = "\033[33m"
-var colorPurple = "\033[35m"
-var colorCyan = "\033[36m"
-var colorWhite = "\033[37m"
+const colorReset = "\033[0m"
+const colorRed = "\033[31m"
+const colorGreen = "\033[32m"
+const colorYellow = "\033[33m"
+const colorPurple = "\033[35m"
+const colorCyan = "\033[36m"
+const colorWhite = "\033[37m"
 
 var TotalIterations int
 var four float64 // is initialized to 4 where needed
